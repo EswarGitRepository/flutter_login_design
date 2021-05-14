@@ -13,6 +13,7 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
     Timer(const Duration(milliseconds: 4000), () {
