@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutterlogindesign/utils/color.dart';
-
 import 'login_page.dart';
 
 class SplashPage extends StatefulWidget {
@@ -13,9 +11,10 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
-    Timer(const Duration(milliseconds: 4000), () {
+    Timer(const Duration(milliseconds: 2000), () {
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => LoginPage()));
     });

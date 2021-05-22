@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlogindesign/utils/color.dart';
 
+// ignore: must_be_immutable
 class ButtonWidget extends StatelessWidget {
-  var btnText ="";
+  var btnText = "";
   var onClick;
-
 
   ButtonWidget({this.btnText, this.onClick});
 
@@ -28,9 +28,7 @@ class ButtonWidget extends StatelessWidget {
         child: Text(
           btnText,
           style: TextStyle(
-              fontSize: 20,
-              color: Colors.white,
-              fontWeight: FontWeight.bold),
+              fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
         ),
       ),
     );

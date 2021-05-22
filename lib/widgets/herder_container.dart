@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlogindesign/utils/color.dart';
 
+// ignore: must_be_immutable
 class HeaderContainer extends StatelessWidget {
   var text = "Login";
 
@@ -19,12 +20,12 @@ class HeaderContainer extends StatelessWidget {
       child: Stack(
         children: <Widget>[
           Positioned(
-            bottom: 20,
+              bottom: 20,
               right: 20,
               child: Text(
-            text,
-            style: TextStyle(color: Colors.white,fontSize: 20),
-          )),
+                text,
+                style: TextStyle(color: Colors.blueGrey[50], fontSize: 20),
+              )),
           Center(
             child: Image.asset("assets/logo.png"),
           ),
